@@ -1,5 +1,5 @@
 /* Fonts */
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans|Terminal+Dosis');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
 
 #torrents .torrent_table .group td:nth-of-type(5),
 #torrents .torrent_table .group td:nth-of-type(4), 
@@ -36,7 +36,7 @@ html {
 
 body {
 	width: 100%;
-	font-family: 'Noto Sans', Arial, sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-size: 10pt;
 	color: #898f95;
 	min-width: 950px;
@@ -104,7 +104,7 @@ input[type='search'], input[type='text'], input[type='url'], input[type='passwor
 	color: #777;
 	border: 1px solid #111;
 	transition: all 150ms linear;
-	font-family: 'Noto Sans', Arial, sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-size: 10pt;
 	background: rgba(135, 130, 130, .12);
 	box-shadow: 0px 0px 14px rgba(0, 0, 0, .1), inset 3px 3px 5px rgba(0, 0, 0, .2);
@@ -1286,7 +1286,7 @@ ul.collage_images li a span {
 
 #collage .comment { position: relative; }
 #collage .comment .brackets { position: absolute; top: 5px; right: 5px; font-size: 9pt; padding: 0 5px;}
-#collage .comment span { float: right; font-family: 'Noto Sans', Arial, sans-serif; font-size: 9pt; margin-right: -5px; padding-top: 7px; }
+#collage .comment span { float: right; font-family: 'Poppins', sans-serif; font-size: 9pt; margin-right: -5px; padding-top: 7px; }
 #collage .comment .head { padding-left: 5px; padding-right: 5px; color: #999;}
 
 #collage .create_form { margin: 30px auto; padding: 20px; }
@@ -1781,7 +1781,7 @@ table.staff {
 #better .tags {  font-size: .9em; }
 
 /*** Top 10 pages ***/
-#top10 h3 small { font-family: 'Noto Sans', Arial, sans-serif; }
+#top10 h3 small { font-family: 'Poppins', sans-serif; }
 #top10 .thin .search_form {
   background: rgba(0, 0, 0, .2);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, .3);
