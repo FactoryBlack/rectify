@@ -41,10 +41,8 @@ body {
 	color: #898f95;
 	min-width: 950px;
 	background-color: #232323;
-	background-image: url('https://ptpimg.me/ro8iuo.png'), url('https://ptpimg.me/f5vq46.png');
 	background-repeat: no-repeat, repeat;
 	background-position: 0 -50px;
-	background-size: contain auto, auto auto;
 	position: relative;
 	min-height: 100%;
 }
@@ -2343,14 +2341,12 @@ position: relative;
 	text-align: center;
 	position: relative;
 	overflow: visible;
-	border-radius: 100px;
 	box-shadow: 3px 3px 4px rgba(0, 0, 0, .4);
 }
 
 #torrent_table.torrent_table .torrent .group_image, #torrent_table .torrent .group_image img { border-radius: unset; width: 65px !important; background: unset; box-shadow: unset; max-width: 65px !important; }
 #torrent_table.torrent_table .torrent .group_image img {  box-shadow: 1px 1px 6px 4px rgba(0, 0, 0, .2); }
 .group_image img {
-	border-radius: 45px;
 	transition: transform 200ms ease;
 	transition-timing-function:cubic-bezier;
 	z-index: 1;
