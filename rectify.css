@@ -2066,12 +2066,11 @@ ul.poll li.graph {
 	text-transform: lowercase;
 	font-family: "Terminal Dosis";
 	font-size: 1.05em;
-	border-radius: 8px;
+	border-radius: 3px;
 	text-transform: lowercase;
 	border: 1px solid #d96674;
 	color: #d96674;
-	border-radius: 8px;
-
+	color: #fff;
 }
 
 
@@ -2085,7 +2084,7 @@ ul.poll li.graph {
 .search_form #categories input:checked + label,
 #user .edit_form:not(#userform) input:checked + label,
 #filter_form input:checked + label {
-	color: #71c164;
+    background-color: #71c164;
 	border-color: #71c164;
 }
 
