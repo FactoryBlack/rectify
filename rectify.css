@@ -2102,8 +2102,8 @@ ul.poll li.graph {
 #forums .cat_list input[type="checkbox"]:checked + label,
 #user .edit_form:not(#userform) input:checked + label,
 #filter_form input:checked + label {
-	color: rgba(113, 193, 100, .6);
-	border-color: rgba(113, 193, 100, .6);
+	color: #fff;
+	font-weight:bold;
 }
 
 .cat_list {
