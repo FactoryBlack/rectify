@@ -1,0 +1,1236 @@
+/** contains almost every color used **/
+
+#shop .featured {
+    background: #1f2023 url('icon/temp_featured.png') top left no-repeat !important;}
+#shop .owned {
+    background: #1f2023 url('icon/temp_owned.png') top left no-repeat !important;}
+#shop li.new {
+    background: #1f2023 url('icon/temp_new.png') top left no-repeat !important;}
+
+#user img[alt="Tip User"] {
+    -webkit-filter: drop-shadow(0px 0px 1px rgba(255,255,255, .4));
+    filter: drop-shadow(0px 0px 1px rgba(255,255,255, .4));}
+
+/** COLORS **/
+body {
+    color: #c4c4c4;}
+
+a,
+.hovereffect h2 a,
+#content li.item_li a,
+.ui-widget-content a {
+    text-decoration: none;
+    color: #c09a9a;}
+
+#requests form #otherop tr td:nth-child(1) {
+    border-right: 1px dotted #de7b41;}
+
+#achievements tr,
+#achievements tr.colhead {
+	border-bottom: #000 1px solid;}
+#achievements tr.colhead {
+	border-top: #000 1px solid;}
+.book span.size7 {
+    border-bottom: 2px solid #c4c4c4;}
+.body.similar ul.nobullet li span.similar_votes a:not([title="Mark as similar"]):hover {
+    filter: drop-shadow(0px 0 2px #000);}
+#seedtime_tokens .large_progress_bar .points,
+#share_score .large_progress_bar .points {
+    text-shadow: -1px -1px 0 #333, 1px -1px 0 #333, -1px 1px 0 #333, 1px 1px 0 #333;}
+#share_score .large_progress_bar .main_section {
+    border-right: 2px solid #fff;}
+.more_info .info_box span.label {
+    border-bottom: 1px solid #c09a9a;}
+
+#taglist tbody {
+    background-color: rgba(68,58,70,0.12);}
+#torrents .group,
+.torrent {
+	background: #303030;}
+
+.error_message {
+    background: radial-gradient(at center, #2d5163 0%,#6f5567 50%,#e85066 100%);}
+
+.hovereffect .overlay:hover h2 {
+    outline: 2px solid #e85066;}
+.box.box_image.box_image_coverart div[align="center"] a:hover:after{
+    outline: 3px solid #e85066;}
+
+input[type="url"],
+input[type=text],
+input[type=search],
+#searchbars ul li form input,
+.autocomplete_list,
+.forum_post td.avatar,
+.filter_torrents .box table:nth-child(4),
+.donate_box_header_plat,
+.torrent_table tr.group_torrent {
+    background-color: #000;}
+input[type="url"]:focus,
+input[type=text]:focus {
+	background-color: #0a0a0a;}
+select:hover {
+	background-color: #bababa;}
+
+.filter_torrents table.cat_list[width="100%"] {
+    background: none;}
+
+#crafting_recipes,
+#userinfo_stats .my_buffer,
+.autocomplete_list li:nth-child(even),
+#index .pad,
+.box,
+#reportsv2 .box,
+.staff_pick .slides_control .nobullet .center,
+table,
+#user table,
+.forum_post,
+.forum_post tbody tr .avatar,
+.forum_post tbody tr .body,
+#collections table,
+#torrents .sidebar .box,
+#user .main_column .box .pad,
+#collections #content .center table tr td.label,
+#collections #content .center table tr td,
+.gazelles_art_display .gazelle_art,
+#items_navigation,
+.ui-dialog .ui-dialog-content,
+#crafting_panel #items,
+#equipment #items,
+#equipment .item,
+#torrents .center form,
+#requests #request_comments #reply_box,
+#rules .thin form.search_form,
+#trading_panel div.gold_trade:before,
+#header #alerts .blend,
+#tools #addgroup,
+#tools #mastergroups,
+#wrapper #content li.item[title^="Level:"]:before {
+    background-color: #1f2023;}
+
+.tooltipster-default,
+#trading_panel .message_box,
+#trading_panel .gold_trade .gold_trade_box_right,
+#trading_panel #items {
+    background-color: #1f2023 !important;}
+
+.row_a,
+.rowa,
+#staffpm #compose,
+#backpack .itemslot .slot_number,
+#backpack #slots_panel,
+#backpack #items,
+#collections .thin table.collections_art_display[width="100%"] >tbody,
+#gazelles #wrapper #content .thin table.gazelles_art_display >tbody,
+#collections .thin .center >form[method="get"],
+.inventory .save_message,
+.inventory #content li.item_li,
+#shop li.item_li,
+#crafting_panel #slots_panel,
+.alertable-cancel,
+.alertable,
+#dailygazelle #gazelletitle,
+#forums .thin.forum_latest >.search.box.pad >form[method="post"] {
+    background: #1f2023;}
+
+#forums .poll li.graph {
+    color: #1f2023;}
+
+.staff_pick .slides_control .nobullet .center {
+    background: #1f2023;}
+
+.donate-button-platinum {
+    background: #fff repeat-x;}
+
+.trade_table,
+#collections #sort_table,
+.forum_latest .search,
+.alertable-cancel:hover {
+    background: #1f2023 !important;}
+
+input#PlainTitlePreview,
+input[type="submit"],
+input[type="button"],
+a[onclick="BBCode.spoiler(this);"],
+#user .notice,
+#markread,
+#markread:before,
+#progress_bar,
+.alertable-ok,
+.book_dialog,
+.body.similar ul.nobullet li span.similar_votes span,
+.donate-button-nature,
+.donate-button-silver,
+.error_message,
+.large_progress_bar,
+.overlay h2 a:hover {
+    color: #fff;}
+
+.body.similar ul.nobullet li span.similar_votes a {
+    color: #323232 !important;}
+
+.hide_req:before,
+.no_access:before {
+    background: #ff0000;}
+
+.overlay div a:hover {
+    color:#C7D6F1;}
+
+#user .qtip-dark {
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);}
+
+.page_break {
+    border-top: #fff solid 1px;}
+
+.rating_container:hover {
+    background-color: rgba(0,0,0,0.2);}
+
+.hovereffect h2,
+#gazelles #wrapper #content .thin table.gazelles_art_display tbody tr td .hovereffect #clickable[class="overlay"] h2, #collections #wrapper #content .thin table.collections_art_display tbody tr td .hovereffect div[class="overlay"] h2 {
+    background: rgba(0,0,0,0.7);}
+
+#shop #clickable:hover .item_description {
+    background-color: rgba(0,0,0,0.8);}
+
+#seedtime_tokens .main_bar,
+#share_score .large_progress_bar .main_bar,
+#center_poll,
+.sidebar #progress_bar .main_bar {
+    box-shadow: inset 0 2px 9px rgba(255,255,255,0.3), inset 0 -2px 6px rgba(0,0,0,0.4);}
+
+input[type="url"],
+input[type=text],
+input[type=search],
+input[type="url"]:focus,
+input[type=text]:focus,
+input[type=search]:focus,
+#searchbars ul li form input:focus,
+.staff_pick_head,
+.statistics_head,
+#torrents .colhead a,
+#torrents .group a,
+#torrents .group,
+.torrent a,
+.torrent,
+#requests .thin > table tr td a,
+.hovereffect h2,
+#share_score .large_progress_bar .fifteen_marker,
+#share_score .large_progress_bar .five_marker,
+.alertable,
+.ui-widget-content,
+.ui-dialog .ui-dialog-title,
+#crafting_panel .item,
+#equipment .item,
+.sidebar #progress_bar > span,
+#shop #clickable:hover .item_description,
+.inventory .bottom_linkbox,
+.inventory .save_message,
+.inventory .save_message span,
+.more_info .info_box span.label,
+.ui-widget-content,
+#user .qtip-content .pad.review h3,
+#user .qtip-content .pad.review p,
+#user .qtip-dark,
+#gazelles #wrapper #content .thin table.gazelles_art_display tbody tr td .hovereffect #clickable[class="overlay"] h2,
+#collections #wrapper #content .thin table.collections_art_display tbody tr td .hovereffect div[class="overlay"] h2,
+.rating_container:hover,
+.collage tbody tr td a:hover div,
+#collections ul.collage_images li >a:hover >div,
+#top10 .linkbox a strong,
+#inbox .linkbox:nth-child(2) >strong,
+#inbox .linkbox:nth-child(2) >a:nth-child(-n+5) >strong,
+#forums .linkbox label,
+.donate_box_content_nature,
+#achievements tr,
+#achievements tr.colhead,
+.alertable-cancel,
+#trading_panel .gold_trade #my_gold_trade_amount,
+#seedtime_tokens .large_progress_bar .last_drop,
+#seedtime_tokens .large_progress_bar .next_drop,
+#share_score .large_progress_bar .points {
+    color: #c4c4c4;}
+
+a[onclick="BBCode.spoiler(this);"],
+a[onclick="BBCode.spoiler(this);"]:hover,
+#shop li.item_li.nostock .submit_section:before,
+.hide_req:before,
+.no_access:before,
+.spoilerbox span {
+    color: #000 !important;}
+.tooltipster-default,
+#trading_panel .item,
+.trade_table .name_tag,
+#recommended #vanityhouse tbody tr td a:nth-child(1):hover {
+    color: #c4c4c4 !important;}
+
+select,
+input[type=text],
+input[type=search],
+input[type="number"],
+input[type="url"],
+#searchbars ul li form input,
+.autocomplete_list,
+#requests form #otherop,
+.donation_box_wrapper,
+#user .notice,
+input#FLTorrent {
+	border: 1px solid #1a1a1a;}
+
+.curtain {
+    background-color: #0E1720;}
+
+#userinfo_minor li a {
+	color: #7a7a7a;}
+
+#extra1 span,
+#torrents .group td {
+	border-right: 1px solid #555;}
+
+.large_progress_bar,
+#progress_bar {
+    background-color: #5C4E47;}
+
+.error_message {
+    background: radial-gradient(at center, #2d5163, #445165, #6f5567, #a55667, #e85066);}
+
+#searchbars ul li form input{
+    color: #757575;}
+
+.autocomplete_list li:nth-child(odd),
+#torrents .filter_torrents #platcheckbox td[colspan="5"],
+#forums table.border .cat_list td[colspan="5"],
+#trading_panel .gold_trade #my_gold_trade_amount {
+	background-color: #000;}
+
+.row_b,
+.rowb,
+#tools #mastergroups table tr:not(.colhead):nth-child(even),
+#tools .thin >#recommended #torrent_form >table tr:not(.colhead):nth-child(even),
+#upload div[style="margin:0px auto;width:700px"] tr:not(.colhead):nth-child(even),
+.forum_latest .search #forumlist tr td input[checked="checked"] + label,
+#torrents #collages >tbody >tr:nth-child(even),
+#torrents div[id^="peers_"] tbody >tr:nth-child(even),
+#torrents .filelist_table tbody >tr:nth-child(even),
+#existing_freeleech_pots .row_b,
+#running_freeleech .group_torrent.row_b,
+#clan_users >table.border >tbody >tr:nth-child(even),
+#clan_stats .clan_past_stats table tbody tr:not(.colhead):nth-child(even),
+#clan_stats .clan_stat_totals >table.border tbody tr:not(.colhead):nth-child(even) td:nth-child(-n+2),
+#clan_stats .clan_stat_totals >table.border tbody tr:not(.colhead):nth-child(odd) td:not([colspan="2"]):nth-child(n+3),
+#clan_stats .ongoing_clan_war >table.border tbody >tr:nth-child(even),
+#uploaded_table tr:not(.colhead):nth-child(even),
+#leeching_table tr:not(.colhead):nth-child(even),
+#downloaded_table tr:not(.colhead):nth-child(even),
+#seeding_table tr:not(.colhead):nth-child(even),
+#snatched_table tr:not(.colhead):nth-child(even),
+#snatched_not_seeding_table tr:not(.colhead):nth-child(even),
+.torrent_history .linkbox + table[width="100%"] tr:not([class="colhead nobr"]):nth-child(even),
+#collections #manage_collage_table >tbody tr:not([class="rowa"]):nth-child(even):not(:last-child),
+#torrents .userreviews tr:nth-child(even),
+#torrents .thin >.header + table >tbody >tr.rowa:nth-child(even),
+#wiki .thin >h2 + table[width="100%"][style="margin-bottom:10px;"] tr:not(.colhead):nth-child(even),
+#wiki .thin >h2 + .linkbox + .center + br + .linkbox + table tr:not(.colhead):nth-child(even),
+#header #alerts a:nth-child(even) {
+    background: #000;}
+.row_b:hover,
+.rowb:hover,
+.row_a:hover,
+.rowa:hover,
+#tools #mastergroups table tr:not(.colhead):hover,
+#tools .thin >#recommended #torrent_form >table tr:not(.colhead):hover,
+#upload div[style="margin:0px auto;width:700px"] tr:not(.colhead):hover,
+.forum_latest .search #forumlist tr td input[checked="checked"] + label:hover,
+#torrents #collages >tbody >tr:not(.colhead):hover,
+#torrents div[id^="peers_"] tbody >tr:not(.colhead_dark):hover,
+#torrents .filelist_table tbody >tr:not(.colhead_dark):hover,
+#existing_freeleech_pots .row_b:hover,
+#running_freeleech .group_torrent.row_b:hover,
+#clan_stats .ongoing_clan_war >table.border tbody >tr:not(.colhead):hover,
+#clan_stats .clan_stat_totals >table.border tbody tr:not(.colhead):hover,
+#clan_stats .clan_past_stats table tbody tr:not(.colhead):hover,
+#clan_users >table.border >tbody >tr:not(.colhead):hover,
+#clan_stats .ongoing_clan_war >table.border tbody >tr:hover,
+
+#clan_stats .ongoing_clan_war >table.border tbody >tr:not(.colhead):hover td,
+#clan_stats .clan_stat_totals >table.border tbody tr:not(.colhead):hover td,
+#clan_stats .clan_past_stats table tbody tr:not(.colhead):hover td,
+#clan_users >table.border >tbody >tr:not(.colhead):hover td,
+#clan_stats .ongoing_clan_war >table.border tbody >tr:hover td,
+
+#uploaded_table tr:not(.colhead):hover,
+#leeching_table tr:not(.colhead):hover:hover,
+#downloaded_table tr:not(.colhead):hover,
+#seeding_table tr:not(.colhead):hover,
+#snatched_table tr:not(.colhead):hover,
+#snatched_not_seeding_table tr:not(.colhead):hover,
+.torrent_history .linkbox + table[width="100%"] tr:not([class="colhead nobr"]):hover,
+#collections #manage_collage_table >tbody tr:not([class="rowa"]):not(:last-child):hover,
+#torrents .userreviews tr:hover,
+#torrents .thin >.header + table >tbody >tr.rowa:hover,
+#wiki .thin >h2 + table[width="100%"][style="margin-bottom:10px;"] tr:not(.colhead):hover,
+#wiki .thin >h2 + .linkbox + .center + br + .linkbox + table tr:not(.colhead):hover,
+#header #alerts a:hover {
+    background: #292a2d !important;}
+
+.autocomplete_list .highlight {
+    background-color: #ef5165 !important;}
+
+textarea:focus,
+select:focus,
+input:focus {
+	-webkit-box-shadow: 0 0 2px #FF8100;
+	-moz-box-shadow: 0 0 2px #FF8100;
+	-ms-box-shadow: 0 0 2px #FF8100;
+	-o-box-shadow: 0 0 2px #FF8100;
+	box-shadow: 0 0 2px #FF8100;
+	outline:none;}
+#searchbars ul li form input:focus {
+	-webkit-box-shadow: 0 0 5px #FF8100;
+	-moz-box-shadow: 0 0 5px #FF8100;
+	-ms-box-shadow: 0 0 5px #FF8100;
+	-o-box-shadow: 0 0 5px #FF8100;
+    box-shadow: 0 0 5px #FF8100}
+
+.box,
+.hovereffect,
+.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable.ui-resizable,
+.freeleech_shop_main .box, .freeleech_shop_main table, .global_buffs_shop_main .box, .global_buffs_shop_main table,
+.inventory #content li.item_li,
+.inventory .save_message,
+.large_progress_bar,
+#user table,
+#wiki .main_column .box, .main_column table:not([class^="forum_post wrap_overflow box vertical_margin forum_unread"]):not([id*="requests"]):not([class="bbcode_table"]),
+#items_navigation,
+#shop li.item_li,
+#shop #shop_search,
+#crafting_panel #items,
+#crafting_panel #slots_panel,
+#equipment #items,
+#equipment #equip_panel,
+#crafting_recipes,
+#upload #content div[style="margin:0px auto;width:700px"] table,
+#upload_table table:not([id="reviews_table"]):not([id="weblinks"]),
+#requests .center.box.pad,
+#requests .thin > table,
+#requests #request_comments #reply_box,
+#grouplinks:after,
+#torrent_table,
+#torrents .center form,
+#torrents #content .thin .main_column .torrent_table:after,
+#rules .thin form.search_form,
+#gazelles #gazelleview table.gazelleinfo,
+#gazelleview table.gazellepic,
+#gazelles #wrapper #content .thin table.gazelles_art_display >tbody,
+#top10 #wrapper #content .thin table.border,
+#collections #content .center table,
+#collections .thin .center >form[method="get"],
+#collections table,
+#collections #wrapper #content .thin table[class="forum_post wrap_overflow box vertical_margin forum_unread"],
+#userhistory table[id^="post"],
+#clan_stats .ongoing_clan_war >table.border,
+#clan_users >table.border,
+#clan_stats .clan_stat_totals >table.border,
+#clan_stats .clan_past_stats >table,
+#progress_bar,
+#reports .thin >h2.center + h3 + .box.pad + p +table,
+#reports .thin >h2.center + h3 + .box.pad + p +table + h3 + .box.pad.center,
+#forums #content .thin table,
+#staffpm #compose,
+#torrents .torrent_history form[action="torrents.php"][method="get"]:nth-child(2),
+#wiki .thin >h2 + table[width="100%"][style="margin-bottom:10px;"],
+#artist .thin >h2 + table.border,
+#wiki .thin >h2 + .linkbox + .center,
+#wiki .thin >h2 + .linkbox + .center + br + .linkbox + table,
+#log #log_table,
+#staffpm #inbox table.message_table.checkboxes,
+#trading_panel #items,
+.trade_table,
+#trading_panel div.gold_trade:before,
+#trading_panel .message_box,
+#header #alerts .blend,
+#stats .box.pad.center,
+#userhistory .linkbox + table,
+#reportsv2 #report_table >table,
+.adventure_table,
+#adventure_search,
+#backpack #slots_panel,
+#backpack #items,
+#tools .permission_container >table,
+#tools .thin >#recommended >form >table,
+#tools #content >.thin >table,
+#tools #content >table,
+#tools .sidebar #slides,
+#tools #addgroup,
+#tools #mastergroups,
+#torrents #content >#newlink,
+#torrents #content >script:first-child +h2 +form,
+#torrents #wrapper #content div#currentlinks table,
+#requests .thin >h2:first-child +form#request_form {
+	-webkit-box-shadow: 0 0 30px #000;
+	-moz-box-shadow: 0 0 30px #000;
+	box-shadow: 0 0 30px #000;}
+.torrent_edit #upload_table >.border.slice,
+.torrent_edit #upload_table #releaseinfo,
+#torrents .thin.torrent_history table:not([class="border"]),
+#torrents #requests,
+#torrents #uploaded_table,
+#torrents #leeching_table,
+#torrents #downloaded_table,
+#torrents #seeding_table,
+#torrents #snatched_table,
+#torrents #snatched_not_seeding_table,
+.forum_latest .search,
+#allreviews table,
+#torrents .thin >.header + table,
+#wiki .thin >.box.pad.center:only-child,
+#wiki .thin >h2 + table[width="100%"][style="margin-bottom:10px;"] + .box.pad.center {
+	-webkit-box-shadow: 0 0 30px #000 !important;
+	-moz-box-shadow: 0 0 30px #000 !important;
+    box-shadow: 0 0 30px #000 !important;}
+
+.autocomplete_list {
+	-webkit-box-shadow: 0 3px 5px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow: 0 3px 5px rgba(50, 50, 50, 0.75);
+    box-shadow: 0 3px 5px rgba(50, 50, 50, 0.75);}
+#torrents .group,
+#bookmarks #torrent_table tbody tr.discog,
+#collections #torrent_table >tbody >tr[class="group discog"],
+#artist #torrent_table >tbody >tr.group,
+.torrent_table .pad blockquote:nth-of-type(2) {
+	background-color: rgba(213,176,154,0.25);}
+#torrents .group:hover,
+#bookmarks #torrent_table tbody tr.discog:hover,
+#collections #torrent_table >tbody >tr[class="group discog"]:hover,
+#artist #torrent_table >tbody >tr.group:hover {
+	background-color: rgba(193,156,134,0.25) !important;}
+
+#artist .edition_info:hover,
+#bookmarks .edition_info:hover {
+    background-color: #1b1b1b;}
+
+#torrents #torrent_table .group span a,
+.collections .linkbox .selected .pageslink,
+#requests .thin > table tr td a {
+    color: #c4c4c4;}
+
+#seedtime_tokens .main_bar,
+#share_score .large_progress_bar .main_bar,
+#center_poll,
+.sidebar #progress_bar .main_bar {
+    background-color: #ed5166;}
+
+#share_score .large_progress_bar .bonus_section {
+    background-color: rgba(177,232,0,0.2);}
+
+#seedtime_tokens .main_bar,
+#share_score .large_progress_bar .main_bar {
+    background-image: linear-gradient(to bottom, #a15766, #ed5166, #6a5466);}
+
+#center_poll,
+.sidebar #progress_bar .main_bar {
+    background-image: linear-gradient(to bottom, #ed5166, #6a5466);}
+
+.global_buffs .color_green .fa,
+.global_buffs .color_purple .fa,
+.global_buffs .color_yellow .fa,
+.global_buffs .color_green .buff_text,
+.global_buffs .color_purple .buff_text,
+.global_buffs .color_yellow .buff_text {
+    color: #c09a9a;}
+
+#backpack #items span:first-child,
+.crafting #crafting_recipes:before,
+#crafting_panel #slots_panel:before,
+#crafting_panel #items >span:first-child,
+#equipment #equip_panel:before,
+.equipment #items_inner >span:first-child,
+#trading_panel #items >span:first-child,
+.save_message,
+.inventory .save_message span,
+#announcement,
+#index .sidebar #progress_bar,
+#collections #reply_box >h3:first-child,
+#requests #request_comments #reply_box >.box.pad >h3:first-child,
+#forums .linkbox.linkbox_bottom + br + h3:nth-last-child(2),
+#inbox .vertical_space + h2 {
+    background-color: #7a685e;}
+
+.ui-widget-header {
+    background: #79675d;}
+
+#markread {
+    background: linear-gradient(to right, #e85066 0%,rgba(111,85,103,1) 50%,rgba(45,81,99,1) 100%);}
+
+#markread:after,
+.error_message:after {
+    background: radial-gradient(at center, #e85066 0%,rgba(111,85,103,1) 50%,rgba(45,81,99,1) 100%);}
+
+#requests .sticky td:first-child:before,
+.sticky #displayname:before {
+    -webkit-filter: drop-shadow(1px 1px 1px rgba(0,0,0, 0.5));
+    -moz-filter: drop-shadow(1px 1px 1px rgba(0,0,0, 0.5));
+    -ms-filter: drop-shadow(1px 1px 1px rgba(0,0,0, 0.5));
+    -o-filter: drop-shadow(1px 1px 1px rgba(0,0,0, 0.5));
+    filter: drop-shadow(1px 1px 1px rgba(0,0,0, 0.5));}
+
+.alertable-cancel {
+    border: solid 1px #333 !important;}
+
+.alertable-cancel:hover {
+    border: solid 1px #969696 !important;}
+
+.alertable-ok,
+button.submit,
+input#PlainTitlePreview,
+input[type="submit"],
+button#AvatarPreview,
+#backpack button,
+input[type="button"] {
+    border-color: rgba(31, 32, 35, 0);}
+
+.alertable-ok,
+.body.similar ul.nobullet li span.similar_votes,
+button.submit,
+input#PlainTitlePreview,
+input[type="submit"],
+button#AvatarPreview,
+#backpack button,
+input[type="button"],
+a[onclick="BBCode.spoiler(this);"]{
+    background-color:#c09a9a;}
+#trading_panel button {
+    background-color:#c09a9a !important;}
+
+#backpack .itemslot,
+#crafting_panel .item,
+#crafting_panel .ui-widget-content {
+    background: rgba(102, 102, 102, 0.7);}
+#trading_panel .trade_table .notice,
+#trading_panel .item {
+    background: rgba(102, 102, 102, 0.7) !important;}
+
+#backpack .item,
+#crafting_panel .item,
+#equipment .item {
+    -moz-box-shadow: 3px 3px 8px rgba(0,0,0,0.7);
+    -webkit-box-shadow: 3px 3px 8px rgba(0,0,0,0.7);
+    box-shadow: 3px 3px 8px rgba(0,0,0,0.7);}
+
+#wrapper .item .item_count,
+#backpack .item h3,
+#crafting_panel .item h3,
+#equipment .item h3 {
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000, 0 0 6px #000;}
+#trading_panel .item h3 {
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000, 0 0 6px #000 !important;}
+
+#equipment div.itemslot.highlight {
+	-moz-box-shadow: 0 0 15px rgba(255, 129, 0, 0.8);
+	-webkit-box-shadow: 0 0 15px rgba(255, 129, 0, 0.8);
+    box-shadow: 0 0 15px rgba(255, 129, 0, 0.8);}
+
+#equipment .item.highlight {
+	-moz-box-shadow: 0 0 3px 1px #FF8100;
+	-webkit-box-shadow: 0 0 3px 1px #FF8100;
+	box-shadow: 0 0 3px 1px #FF8100;}
+
+#equipment .itemslot.inactive {
+	background: rgba(117,117,117,0.8);}
+
+#shop #cost_info,
+.profile .box_stats #hnrs a.good,
+.more_info .info_cost #cost,
+.user_online {
+    color: #69c077;}
+
+.profile .box_stats #hnrs a.warn {
+    color: #b49629;}
+
+.profile .box_stats #hnrs a.alert,
+.more_info .info_reqs .denied_req {
+    color: #CF0024;}
+
+.user_offline {
+    color: #bf6a6a;}
+
+a[onclick^="show_reported"] {
+    text-shadow: #ff0000 0 0 7px;}
+.reportinfo_table {
+    border: 1px solid #ff0000;}
+
+.spoilerbox,
+blockquote,
+.group_torrent td,
+.torrent_table,
+.torrent td, .torrent .center,
+#bookmarks #torrent_table tbody tr.discog td.center.cats_col,
+#collections .thin.collections #torrent_t   able >tbody >tr[class="group discog"] >td.collicon:nth-child(1),
+#collections .thin.collections #torrent_table >tbody >tr[class="group discog"] >td.collicon:nth-child(2),
+#torrents div[id^="peers_"] >table,
+#torrents .filelist_table,
+#torrents div[id^="history"] >form >table.border,
+#artist #torrent_table tr:not(.colhead) td,
+#wrapper #content li.item[title^="Level:"]:before {
+    border: 1px solid #555;}
+
+.torrent_table tbody .group_torrent {
+	background-color: #121212;}
+
+#index #dailygazelle .head.colhead_dark {
+    background-color: #7a685e !important;}
+
+.edition_info +td,
+.edition_info {
+    background-color: #202020;
+	color: #a9a9a9;}
+
+.torrent td strong
+.group_torrent td em strong {
+    color: #4a7a2c;}
+
+.torrent_table a,
+#torrents #torrentbrowse #torrent_table tbody tr[class*=" edition_"] td[colspan="4"] a[href^="torrents.php?id="] span,
+#collections #torrent_table tr.group_torrent td a span{
+	color: #DA9369;}
+
+.profile .box_art_gallery .gallery_small_slot.selected {
+    border: 2px solid #696969;}
+
+.tooltipster-default,
+.thin.top10_torrents div:not(.center) tr:not(.colhead) td,
+.thin.top10_games div:not(.center) tr:not(.colhead) td,
+.bbcode_table_div table.bbcode_table,
+.bbcode_table_div table.bbcode_table tbody tr td,
+#user td,
+#recommended #vanityhouse tbody tr td,
+#torrents .torrent_history table tbody tr:not(.colhead) td,
+#torrents li.similar_group >a,
+#torrents .screenshots >a,
+#collections ul li[class^="image"] {
+	border: 1px solid #303030;}
+
+#bookmarks .collage tbody tr td a {
+    border: 1px solid #303030 !important;}
+#running_freeleech tr:not(.colhead) td:nth-child(n+2),
+#requests .thin >table tr:not(.colhead_dark) td:nth-child(n+2),
+#upload div[style="margin:0px auto;width:700px"] table tr:not(.colhead) td:nth-child(2),
+#artist #requests >tbody >tr:not(.colhead_dark) >td:nth-child(n+2), 
+#torrents #requests #requests_list >tbody >tr[class^="requestrows row"] >td:nth-child(n+2), 
+#torrents #collages >tbody >tr:not(.colhead) >td:nth-child(2),
+#torrents div[id^="peers_"] tbody >tr:not(.colhead_dark) >td:nth-child(n+2),
+#torrents div[id^="history"] form table.border tbody tr:not(.colhead) >td:nth-child(n+2),
+#torrents .filelist_table >tbody >tr:not(.colhead_dark) >td:nth-child(n+2),
+#clan_users >table.border >tbody >tr:not(.colhead) >td:nth-child(n+2),
+#clan_users >table.border >tbody >tr:not(.colhead) >td:nth-child(n+2),
+#torrents .similar_votes,
+#uploaded_table tr:not(.colhead) td:nth-child(n+2),
+#leeching_table tr:not(.colhead) td:nth-child(n+2),
+#downloaded_table tr:not(.colhead) td:nth-child(n+2),
+#seeding_table tr:not(.colhead) td:nth-child(n+2),
+#snatched_table tr:not(.colhead) td:nth-child(n+2),
+#snatched_not_seeding_table tr:not(.colhead) td:nth-child(n+2) {
+    border-left: 1px solid #303030;}
+#running_freeleech tr:not(.colhead):not(:last-child),
+#requests .thin >table tr:not(.colhead_dark):not(:last-child),
+#torrents div[id^="history"] form table.border tbody tr:not(.colhead):nth-last-child(2),
+#torrents .similar_votes,
+#upload tr:not(.colhead):not(:last-child),
+#uploaded_table tr:not(.colhead):not(:last-child),
+#leeching_table tr:not(.colhead):not(:last-child),
+#downloaded_table tr:not(.colhead):not(:last-child),
+#seeding_table tr:not(.colhead):not(:last-child),
+#snatched_table tr:not(.colhead):not(:last-child),
+#snatched_not_seeding_table tr:not(.colhead):not(:last-child) {
+    border-bottom: 1px solid #303030;}
+#upload td.label {
+	border-right: 1px solid #303030;}
+
+.forum_post td.avatar {
+	border-right: 1px solid #1a1a1a;}
+.forum_post td.avatar,
+#userhistory .forum_post tbody tr .body,
+#inbox #messageform input + table,
+#collections #manage_collage_table >tbody tr:last-child:nth-last-child(2) {
+    border-bottom: 1px solid #1a1a1a;}
+
+#trading_panel .gold_trade #my_gold_trade_amount {
+    border: 2px solid #1a1a1a !important;}
+
+#inbox tr.unreadpm {
+	background: rgba(104, 192, 119, 0.3);}
+
+.book .page {
+    background-color: #2b4e66;}
+
+.spoilerbox,
+blockquote {
+	background-color: #0a0a0a;}
+
+#forums table.forum_unread {
+    outline: #68c077 solid 2px;
+    outline-offset: -1px;}
+#forums table.sticky_post {
+    outline: #79675d solid 2px;
+    outline-offset: -1px;}
+
+.forum_post tbody tr td[id^="likers_"],
+#forums .forum_signature td div {
+    border-top: 1px solid #1a1a1a;}
+
+#bookmarks #torrent_table tbody tr.discog td span[style="float:left;"] >strong a,
+#top10 #wrapper #content .thin table.border tbody tr[class^="group_torrent"] td strong a,
+#running_freeleech >tbody tr[class^="group_torrent row_"] >td >strong a,
+#collections #torrent_table a,
+#torrents #torrentbrowse #torrent_table.grouping >tbody >tr:nth-child(n+2) a,
+#running_freeleech >tbody tr[class^="group_torrent row_"] >td >strong a,
+.group_torrent td span a,
+#requests .thin table.border[border="0"][width="100%"] >tbody tr[class^="row"] >td a {
+    color: #d5b09a;}
+
+i.fa.fa-fl-pots {
+    color: #b585d3 !important;
+    filter: drop-shadow(2px 2px 2px rgba(218, 120, 252, 1));}
+
+#clans .large_progress_bar .main_bar.clan_1_bar {
+    background-color: #6a4028;
+    background-image: linear-gradient(to top, #6b4129, #aa897d);}
+#clans .large_progress_bar .main_bar.clan_2_bar {
+    background-color: #6b6b6b;
+    background-image: linear-gradient(to top, #6b6b6b, #e8e8e8);}
+#clans .large_progress_bar .main_bar.clan_3_bar {
+    background-color: #ff0000;
+    background-image: linear-gradient(to top, #ff0000 0%, #ff5a00 40%, #ff9a00 65%, #ffce00 90%, #ffe70a 100%);}
+#clans .large_progress_bar .main_bar.clan_4_bar {
+    background-color: #000d6b;
+    background-image: linear-gradient(to top, #000d6b 0%, #0038ff 15%, #0078ff 40%, #009fff 65%, #00dfff 100%);}
+
+.sidebar #freeleech span.platform,
+.sidebar #freeleech span.tor_info,
+.rating_container {
+    color: #969696;}
+
+.ratings .red,
+#torrents #content .box #thumbsdown {
+    color: #cc0000;}
+.ratings .yellow {
+    color: #d6cc00;}
+.ratings .green,
+#torrents #content .box #thumbsup {
+    color: #62c746;}
+
+#upvote {
+    color:#86D406;}
+#downvote {
+    color:#e10000;}
+
+#requests .colhead_dark >td >a >strong,
+#torrents .colhead >td >a,
+.sidebar >.box >.head >a,
+h2 a,
+#taglist tbody tr td a,
+#collections .sidebar .box.pad a {
+    color: #CBA69A;}
+.tags >a {
+    color: #c09a9a !important;}
+
+#artist .main_column #torrent_table[class="torrent_table grouping"] tbody .colhead, 
+#artist .main_column_bg .main_column .box #requests tbody .colhead_dark, 
+#user .box_gold td.label, 
+#user .thin .sidebar .box.box_gold #box_gold_scrollbar tbody .colhead td, 
+#user .main_column_bg .main_column .main_column_sortable .box.box_requests #requests table.border tbody,
+#torrents #requests #requests_list >tbody >tr:first-child >td,
+.colhead_dark,
+.torrent_edit #upload_table #releaseinfo td.label,
+#user_fight_attacks .label {
+    background-color: rgba(213,176,154,0.35);}
+#user .profile .box_requests tr.colhead_dark {
+    background-color: #5e524d;}
+
+.head,
+.colhead,
+.colhead_dark,
+#tools #addgroup >h1,
+#tools #mastergroups >h2:first-child,
+#tools #mastergroups >span:first-child +h2,
+.similar .similar_votes,
+#gazelleview #titlerow,
+#items_navigation h3 {
+	background-color: rgba(213,176,154,0.5);}
+#index .colhead_dark,
+.trade_table .name_tag {
+    background: rgba(213,176,154,0.5) !important;}
+
+#torrents .group td,
+#clan_stats .clan_stat_totals >table.border tbody tr:not(.colhead) td:nth-child(3) {
+    border-left: 1px solid #555;}
+
+#bookmarks #torrent_table tbody tr.discog,
+#collections .thin.collections #torrent_table >tbody >tr[class="group discog"],
+#torrents .group td,
+#torrents .group, .torrent,
+#torrents tbody[id^="edition_"],
+#torrents .main_column_bg .main_column .torrent_table tbody .group_torrent {
+    border-bottom: 1px solid #555;}
+
+#torrents .group, .torrent,
+#torrents .forum_post .comment_rating,
+#bookmarks #torrent_table tbody tr.discog,
+#collections .thin.collections #torrent_table >tbody >tr[class="group discog"] {
+    border-top: 1px solid #555;}
+
+#shop .new_purchase_icon {
+	text-shadow: 2px 2px 2px #000;
+    color: #19ea19;}
+
+#shop li.item_li.nostock .submit_section:before {
+    background-color: #ff0000;}
+
+#torrents #content .new_status:after {
+    background: linear-gradient(to top left, #2d5163, #445165, #6f5567, #a55667, #e85066);
+    color: #f0f0f0;}
+
+.book blockquote {
+    background-color: #1c3145;}
+
+.profile .box_stats #profile_views {
+    color: #757575;}
+.profile .box_stats .online {
+    color: #43bc56;}
+
+.profile .box_links .profile_link_count {
+    color: #947d71;}
+
+#achievements {
+	border: medium solid #1a1a1a;
+	background-color: #e3e3e3;}
+
+#user .notice {
+	background-color: #801216;}
+
+textarea,
+.bbbutt {
+    border: 2px solid rgba(213,176,154,0.5);}
+#trading_panel .message_box ul.bbbutt{
+    border: 2px solid rgba(213,176,154,0.5) !important;}
+
+#requests form #otherop tr:nth-child(even) {
+	background-color: #1a1a1a;}
+
+#user .content .r00 {
+	color: #ff0000;}
+#user .content .r01,
+#user .content .r02 {
+	color: #ff1300;}
+#user .content .r03 {
+	color: #ff2600;}
+#user .content .r04 {
+	color: #ff4c00;}
+#user .content .r05,
+#user .content .r06 {
+	color: #ff5e00;}
+#user .content .r07 {
+	color: #ff7100;}
+#user .content .r08 {
+	color: #ff9700;}
+#user .content .r09 {
+	color: #fa0;}
+#user .content .r10 {
+	color: #74c42e;}
+#user .content .r20,
+#user .content .r50,
+#user .content .r99,
+#requests .thin > table tr td:nth-child(4) span[title] {
+	color: #418b00;}
+
+.head.tooltip[onclick]:before,
+.head[title="Click to expand/collapse"]:before,
+#index #recommended .head:before,
+#index .thin .main_column_bg .main_column .box[class="box news_post"] .head:before,
+#forums .thin .box.thin.clear .head.colhead_dark[style="padding-top: 5px; height:20px;"]:before,
+#torrents #requests tbody tr.colhead >td:before {
+    background: linear-gradient(to top, #e85066 0%,rgba(42, 79, 101, 0) 100%);}
+#torrents #content .thin .main_column .torrent_table tbody tr.colhead_dark td[width="80%"]:before {
+    background: linear-gradient(to top, rgba(232,80,102,0.75) 0%,rgba(42, 79, 101, 0) 100%);}
+.edition_info:before {
+    background: linear-gradient(to top, rgba(232,80,102,0.3) 0%,rgba(42, 79, 101, 0) 100%);}
+#torrents tbody[id^="edition_"] tr.group_torrent:hover,
+#torrents #torrentbrowse #torrent_table tbody tr[class*=" edition_"]:hover,
+#collections .thin.collections .main_column #torrent_table >tbody >tr[class^="group_torrent"]:hover,
+#bookmarks .group_torrent:hover, .torrent_table tbody .group_torrent:hover {
+    background-color: #000 !important;}
+.alertable-ok:hover,
+input[type="submit"]:hover, 
+input[type="button"]:hover,
+#backpack button:hover,
+button[type="button"]:not([title="Close"]):hover,
+.body.similar ul.nobullet li span.similar_votes:hover,
+a[onclick="BBCode.spoiler(this);"]:hover,
+#trading_panel button:hover:not(:disabled) {
+	background: radial-gradient(circle, #e85066 0%,#c09a9a 100%);}
+.body.similar ul.nobullet li span.similar_votes:hover:before {
+    background: linear-gradient(to top, rgba(232,80,102,0.5) 0%,rgba(232,80,102, 0) 100%);}
+
+input[type="button" i],
+input[type="submit" i],
+input[type="reset" i],
+input[type="file" i]::-webkit-file-upload-button,
+button {
+    color: buttontext;}
+
+input[type="number"],
+textarea,
+.bbbutt,
+select {
+    background-color: #c4c4c4;}
+
+#trading_panel .message_box ul.bbbutt,
+#trading_panel .message_box textarea {
+    background-color: #c4c4c4 !important;}
+
+#equipment .item,
+#equipment .itemslot #purchase {
+    background-color: #515151;}
+/** /COLORS **/
+
+/** TORRENT STATUS COLORS **/
+#color_leeching,
+#color_leeching .torrent_info_tags,
+#color_leeching a {
+    color: #e03854 !important;}
+#color_seeding,
+#color_seeding .torrent_info_tags,
+#color_seeding a {
+    color: #509a00 !important;}
+#color_uploaded,
+#color_uploaded .torrent_info_tags,
+#color_uploaded a {
+    color: #ffb405 !important;
+    text-shadow: 0 0 2px #fcc201;}
+#color_snatched,
+#color_snatched .torrent_info_tags,
+#color_snatched a {
+    color: #914154 !important;}
+#color_downloaded,
+#color_downloaded .torrent_info_tags,
+#color_downloaded a {
+    color: #914154 !important;}
+#color_freeleech,
+strong.freeleech_label {
+    color: #b585d3 !important;
+    text-shadow: 0 0 7px rgba(218, 120, 252, 0.7);}
+#color_personal_freeleech,
+strong.personal_freeleech_label,
+#color_partial_freeleech,
+strong.partial_freeleech_label {
+    text-shadow: 0 0 7px;}
+#color_reported,
+strong.reported_label {
+    color: #ff0000 !important;
+    text-shadow: 0 0 7px rgba(255, 50, 50, 0.7);}
+#color_trumpable,
+strong#trumpable_tag,
+strong.trumpable_label {
+    color: #ED4A35 !important;
+    text-shadow: 0 0 7px;}
+#color_neutralleech,
+strong.neutralleech_label {text-shadow: 0 0 7px;}
+#torrents .thin.torrent_history table tbody tr.owner td a[title="View Torrent"] {
+    color: #64ae00 !important;}
+/** /TORRENT STATUS COLORS **/
+
+/** HOVER COLORS **/
+.collage tbody tr td a:hover,
+.box.box_uploads.box_torrents div #uploadsrow >tbody >tr >td a:hover,
+.box.box_snatches.box_torrents div #snatchesrow >tbody >tr >td a:hover,
+.box.box_likes.box_torrents div #likesrow >tbody >tr >td a:hover,
+#torrents li.similar_group >a:hover,
+#torrents .screenshots >a:hover,
+#collections ul.collage_images li >a:hover,
+#recommended #vanityhouse tbody tr td a:nth-child(1):before {
+	background: #e85066;}
+
+#userinfo_minor li a:before,
+#userinfo_minor li a:after,
+#menu ul li a:before,
+#menu ul li a:after,
+#index #clans .large_progress_bar:hover {
+    background-color: #e85066;}
+
+#color_leeching:hover,
+#color_leeching:hover .torrent_info_tags,
+#color_leeching:hover a,
+#color_seeding:hover,
+#color_seeding:hover .torrent_info_tags,
+#color_seeding:hover a,
+#color_uploaded:hover,
+#color_uploaded:hover .torrent_info_tagsr,
+#color_uploaded:hover a,
+#color_snatched:hover,
+#color_snatched:hover .torrent_info_tags,
+#color_snatched:hover a,
+#color_downloaded:hover,
+#color_downloaded:hover .torrent_info_tags,
+#color_downloaded:hover a,
+#torrents .thin.torrent_history table tbody tr.owner td a[title="View Torrent"]:hover,
+a:hover,
+a:hover i,
+a:hover span,
+#userinfo_minor li a:hover,
+.tags >a:hover,
+#requests .thin > table >tbody >tr.colhead_dark >td >a >strong:hover,
+#clickable:not([class="overlay"]):hover >h3,
+.global_buffs a:hover .buff_text,
+#crafting_recipes #items_list .item_li:hover {
+    color: #e85066 !important;}
+/** /HOVER COLORS **/
+
+/** DONATION COLORS **/
+.donation_box,
+.std_donations_box,
+.donate_box_content {
+    border: 1px solid #434343;}
+
+.donation_box,
+.std_donations_box,
+.donate_box_header,
+.donate_box_content {
+    background-color: #2f2f2f;}
+
+.std_donations_box_wrapper {
+    border: 1px solid #2b2b2b;}
+
+.donate_box_wrapper {
+	border: 1px solid #262626;}
+
+.donate_box_header {
+    border-color: #434343;
+	border-bottom: 1px solid #272727;}
+
+.donate_box_header_nature {
+	background-color: #707DB3;}
+.donate-button-nature {
+    background: #707db3;}
+.donate_box_header_silver {
+	background-color: #868686;}
+.donate-button-silver {
+    background: #868686;}
+.donate_box_header_gold {
+    background-color: #EAC117;}
+.donate-button-gold {
+    background: #EAC117;}
+
+.donate-button-nature,
+.donate-button-silver,
+.donate-button-gold,
+.donate-button-platinum,
+.donate-button-custom {
+    border: 1px solid #2a2a2a;}
+
+.donate_box_header_gold,
+.donate_box_header_plat,
+.donate_box_content_plat,
+.donate_box_content_gold,
+.ui-widget-header,
+.donate-button-gold,
+.donate-button-platinum {
+    color: #222;}
+
+.donate_box_content_silver {
+	color:#333;}
+/** /DONATION COLORS **/
+
+/** RATIO COLORS **/
+.r00 {color: #ff0000;}
+#wrapper #content li.item[title="Level: 1"]:before,
+#wrapper #content li.item[title="Level: 2"]:before,
+.r01,
+.r02 {color: #ff1300;}
+#wrapper #content li.item[title="Level: 3"]:before,
+.r03 {color: #ff2600;}
+#wrapper #content li.item[title="Level: 4"]:before,
+.r04 {color: #ff4c00;}
+#wrapper #content li.item[title="Level: 5"]:before,
+#wrapper #content li.item[title="Level: 6"]:before,
+.r05,
+.r06 {color: #ff5e00;}
+#wrapper #content li.item[title="Level: 7"]:before,
+.r07 {color: #ff7100;}
+#wrapper #content li.item[title="Level: 8"]:before,
+.r08 {color: #ff9700;}
+#wrapper #content li.item[title="Level: 9"]:before,
+.r09 {color: #fa0;}
+#wrapper #content li.item[title="Level: 10"]:before,
+.r10 {color: #68D51D;}
+.r20,
+.r50,
+.r99 {color: #68D51D; text-shadow: 0 0 2px #68ff1d;}
+/** /RATIO COLORS **/
+
+/** GAME STYLES **/
+.master_2639 #logo, .tgroup_6526 #logo, .series_885 #logo, #logo[style^="background: url('https://ptpimg.me/t475s2.png')"], .series_196 #logo, .series_169 #logo, .series_58 #logo, .series_52 #logo, .series_179 #logo, .series_211 #logo, .series_22 #logo, .series_15 #logo, .series_208 #logo, .series_178 #logo, 
+.tgroup_24482 #logo, .tgroup_24230 #logo, .tgroup_23617 #logo, .series_31 #logo, .series_191 #logo, .master_465 #logo, .tgroup_5993 #logo, .tgroup_8046 #logo, .series_70 #logo, .franchise_53 #logo, 
+.series_19 #logo, .series_65 #logo, .series_827 #logo, .series_183 #logo, .series_26 #logo, .series_327 #logo, .series_291 #logo, .franchise_55 #logo, .series_896 #logo, .master_2940 #logo, 
+.franchise_360 #logo, .series_857 #logo, .series_198 #logo, .alpacas #logo, .daftpunk #logo, .series_555 #logo, .series_279 #logo, .series_188 #logo, .series_177 #logo, .series_184 #logo, 
+.series_630 #logo, .franchise_135 #logo, .franchise_595 #logo, .series_302 #logo, .series_237 #logo, .master_3805 #logo, .master_3787 #logo, .series_27 #logo, .franchise_986 #logo, 
+.franchise_1519 #logo, .series_1503 #logo, .series_298 #logo, .franchise_91 #logo, .series_1434 #logo, .series_587 #logo, .series_57 #logo, .series_35 #logo, .tgroup_30661 #logo, 
+.series_548 #logo, .master_3944 #logo, .series_987 #logo, .series_575 #logo, .franchise_2521 #logo, .master_680 #logo, .tgroup_11495 #logo, .tgroup_18505 #logo, .master_691 #logo, 
+.master_2719 #logo, .master_7884 #logo, .master_117 #logo, .franchise_2773 #logo {
+	box-shadow: inset 0 0 30px #000;}
+.master_2639 #logo:hover, .tgroup_6526 #logo:hover, .series_885 #logo:hover, #logo[style^="background: url('https://ptpimg.me/t475s2.png')"]:hover, .series_196 #logo:hover, .series_169 #logo:hover, .series_58 #logo:hover, .series_52 #logo:hover, .series_179 #logo:hover, .series_211 #logo:hover, .series_22 #logo:hover, .series_15 #logo:hover, .series_208 #logo:hover, .series_178 #logo:hover, 
+.tgroup_24482 #logo:hover, .tgroup_24230 #logo:hover, .tgroup_23617 #logo:hover, .series_31 #logo:hover, .series_191 #logo:hover, .master_465 #logo:hover, .tgroup_5993 #logo:hover, .tgroup_8046 #logo:hover, .series_70 #logo:hover, .franchise_53 #logo:hover, 
+.series_19 #logo:hover, .series_65 #logo:hover, .series_827 #logo:hover, .series_183 #logo:hover, .series_26 #logo:hover, .series_327 #logo:hover, .series_291 #logo:hover, .franchise_55 #logo:hover, .series_896 #logo:hover, .master_2940 #logo:hover, 
+.franchise_360 #logo:hover, .series_857 #logo:hover, .series_198 #logo:hover, .alpacas #logo:hover, .daftpunk #logo:hover, .series_555 #logo:hover, .series_279 #logo:hover, .series_188 #logo:hover, .series_177 #logo:hover, .series_184 #logo:hover, 
+.series_630 #logo:hover, .franchise_135 #logo:hover, .franchise_595 #logo:hover, .series_302 #logo:hover, .series_237 #logo:hover, .master_3805 #logo:hover, .master_3787 #logo:hover, .series_27 #logo:hover, .franchise_986 #logo:hover, 
+.franchise_1519 #logo:hover, .series_1503 #logo:hover, .series_298 #logo:hover, .franchise_91 #logo:hover, .series_1434 #logo:hover, .series_587 #logo:hover, .series_57 #logo:hover, .series_35 #logo:hover, .tgroup_30661 #logo:hover, 
+.series_548 #logo:hover, .master_3944 #logo:hover, .series_987 #logo:hover, .series_575 #logo:hover, .franchise_2521 #logo:hover, .master_680 #logo:hover, .tgroup_11495 #logo:hover, .tgroup_18505 #logo:hover, .master_691 #logo:hover, 
+.master_2719 #logo:hover, .master_7884 #logo:hover, .master_117 #logo:hover, .franchise_2773 #logo:hover {
+	box-shadow: inset 0 0 45px #000;}
+/** /GAME STYLES **/
+
+
+@media (max-width: 800px) {
+    #user td.label,
+    #inbox td.label,
+    #requests .thin .main_column table td.label,
+    #torrents .filter_torrents td.label {
+        background: #000;}
+    #torrents .main_column .forum_post .avatar img {
+        border-right: 1px solid #1a1a1a;}
+    #forums td.body,
+    #torrents .main_column .forum_post td.body {
+        border-left: 1px solid #1a1a1a;}
+    tr.likes {
+        border-top: 1px solid #1a1a1a;}
+    #torrents .groupoptions a,
+    #torrents .main_column tr.group_torrent td:nth-child(1) span:first-child a,
+    #userinfo_stats li,
+    #userinfo_minor li a,
+    .sub a,
+    #menu ul li a,
+    #header #alerts a,
+    .global_buffs .individual_buff {
+        border: 1px solid #1a1a1a;
+        background: #1f2023;}
+    #userinfo_minor li a,
+    .sub a,
+    #menu ul li a {
+        color: #c09a9a;}
+    #torrents .main_column tr.group_torrent td:nth-child(1) span:first-child a:before,
+    #torrents .groupoptions a:before,
+    #userinfo_minor li:before,
+    #menu ul li:before,
+    #searchbars >ul >li:before,
+    #header #userinfo_stats li:before,
+    .sub span:before,
+    #user.equipment #items_navigation,
+    #items_navigation:hover {
+        -webkit-box-shadow: 0 0 30px #000;
+        -moz-box-shadow: 0 0 30px #000;
+        box-shadow: 0 0 30px #000;}
+    #user.equipment #items_navigation,
+    #items_navigation:hover {
+        background-color: #1f2023;}
+    #announcement:hover {
+        background-color: #7a685e;}
+}
